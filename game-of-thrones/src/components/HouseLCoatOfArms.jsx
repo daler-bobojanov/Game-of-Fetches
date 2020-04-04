@@ -28,7 +28,7 @@ class HouseLCoatOfArms extends Component {
 
     render() {
         return (
-            <div>
+            <div className="wrapper">
                 <button type="button" value="houses/229" onClick={this.buttonClicked}>
                     What's the coat of arms of House Lannister?
           </button>

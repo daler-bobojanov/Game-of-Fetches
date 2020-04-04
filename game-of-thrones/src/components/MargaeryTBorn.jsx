@@ -28,7 +28,7 @@ class MargaeryTBorn extends Component {
 
   render() {
     return (
-      <div>
+      <div className="wrapper">
         <button
           type="button"
           value="characters/16"

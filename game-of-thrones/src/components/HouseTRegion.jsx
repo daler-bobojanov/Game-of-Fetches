@@ -29,7 +29,7 @@ class HouseTRegion extends Component {
 
     render() {
         return (
-            <div>
+            <div className="wrapper">
                 <button type="button" value="houses/378" onClick={this.buttonClicked}>
                     What region is House Targaryen in?
         </button>
