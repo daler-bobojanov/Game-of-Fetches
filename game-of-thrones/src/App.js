@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import MargaeryTBorn from './components/MargaeryTBorn';
+import HouseTRegion from './components/HouseTRegion';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className="App">
         <header>Game of Fetches</header>
         <MargaeryTBorn />
+        <HouseTRegion />
       </div>
     );
   }
