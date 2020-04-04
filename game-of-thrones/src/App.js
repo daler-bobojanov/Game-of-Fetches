@@ -4,6 +4,7 @@ import MargaeryTBorn from './components/MargaeryTBorn';
 import HouseTRegion from './components/HouseTRegion';
 import HouseLCoatOfArms from './components/HouseLCoatOfArms';
 import SecSeatOfHouseBar from './components/SecSeatOfHouseBar';
+import RobertBSecondAlias from './components/RobertBSecondAlias';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <HouseTRegion />
         <HouseLCoatOfArms />
         <SecSeatOfHouseBar />
+        <RobertBSecondAlias />
       </div>
     );
   }
