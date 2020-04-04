@@ -32,6 +32,7 @@ button:hover{
 h1{
   color: green;
   line-height: 10%;
+  font-size: 1.3em;
 }
 
 .wrapper{
