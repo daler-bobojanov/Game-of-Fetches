@@ -5,6 +5,7 @@ import HouseTRegion from './components/HouseTRegion';
 import HouseLCoatOfArms from './components/HouseLCoatOfArms';
 import SecSeatOfHouseBar from './components/SecSeatOfHouseBar';
 import RobertBSecondAlias from './components/RobertBSecondAlias';
+import FounderOfHouseStark from './components/FounderOfHouseStark';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <HouseLCoatOfArms />
         <SecSeatOfHouseBar />
         <RobertBSecondAlias />
+        <FounderOfHouseStark />
       </div>
     );
   }
@@ -40,7 +42,7 @@ URL: http://www.anapioficeandfire.com/api/houses/17
 
 What is Robert Baratheon's second alias?
 URL: http://www.anapioficeandfire.com/api/characters/901
-
+=====
 What's the name of the founder of House Stark? (You have to chain fetch requests!)
 URL: http://www.anapioficeandfire.com/api/houses/362
 
